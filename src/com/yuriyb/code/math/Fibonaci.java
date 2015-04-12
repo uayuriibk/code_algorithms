@@ -1,7 +1,5 @@
 package com.yuriyb.code.math;
 
-import java.util.Scanner;
-
 public class Fibonaci {
 
 		static int fibonacci (int n){
