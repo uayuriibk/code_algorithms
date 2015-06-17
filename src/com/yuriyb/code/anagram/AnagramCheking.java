@@ -6,11 +6,10 @@ import java.util.List;
 public class AnagramCheking {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(anagramCheck("hello", "llohe"));
+		System.out.println(isAnagramCheck("hello", "llohe"));
 	}
 	
-	public static boolean anagramCheck(String word1, String word2){
+	public static boolean isAnagramCheck(String word1, String word2){
 		
 		boolean isAnagrame = true;
 		List<Character> word2List = new ArrayList<Character>();
